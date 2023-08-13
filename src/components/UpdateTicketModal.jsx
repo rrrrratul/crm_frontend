@@ -123,6 +123,7 @@ const UpdateTicketModal = ({
           Update{" "}
         </Button>
       </ModalFooter>
+      {/* body */}
     </Modal>
   );
 };
