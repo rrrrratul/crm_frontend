@@ -68,6 +68,8 @@ const Customer = () => {
         },
       });
 
+      console.log(ticketDetails);
+
       setTicketDetails(formData);
 
       setShowCreateTicketModal(false);
@@ -112,7 +114,7 @@ const Customer = () => {
                   actions={[
                     {
                       icon: () => <i class="bi bi-plus-circle-fill"></i>,
-                      tooltip: "Add User",
+                      tooltip: "Add Ticket",
                       isFreeAction: true,
                       onClick: () => setShowCreateTicketModal(true),
                     },
